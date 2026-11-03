@@ -11,6 +11,11 @@ h1 {
   font-size: 50px;
 }
 
+h2 {
+  font-weight: 800;
+  font-size: 50px;
+}
+
 h3 {
   font-weight: bold;
   font-size: 30px;
@@ -26,8 +31,14 @@ h4 {
   margin: 0 auto;
 }
 
+p {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 30px 0;
+}
+
 .hero-banner {
-  background-color: #7ee2e6;
+  background-color: rgb(126, 226, 230);
   min-height: 100vh;
   padding: 50px 20px;
   box-sizing: border-box;
@@ -102,23 +113,70 @@ button.cta.alt {
   box-shadow: 0 0 0 10px rgba(0, 127, 255, 0.15);
 }
 
-/* <div class="hero-banner">
-      <div class="wrapper">
-        <h4>
-          Abyssnode from
-          <a href="https://github.com/1Abyss-Node1">Github</a> Presents
-        </h4>
-        <h1>
-          The virtual underground idol <br />Located in New Eridu <br />
-          Located in Error 404
-        </h1>
-        <h3>
-          It's Nangong Aria &amp; Sunna <br />The virtual underground idol of
-          New Eridu
-        </h3>
-        <a class="cta alt" href="#more-info">Read More</a>
-      </div>
-      <div class="character1"></div>
-      <div class="character2"></div>
-      <div class="character3"></div>
-    </div> */
+nav {
+  background-color: #fdfdfd;
+  height: 100px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+}
+
+nav .logo {
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-left: 30px;
+  transform: translateY(-50%);
+  background: url(AOD/AOD-logo.png) no-repeat 0 0;
+  background-size: 100%;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+nav ul li {
+  padding: 0;
+  margin: 0;
+  display: block;
+  float: right;
+}
+
+nav ul li a {
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #111111;
+  text-decoration: none;
+  padding: 35px 10px;
+  line-height: 30px;
+}
+
+.more-info {
+  background-color: #f5f5f5;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* 
+
+<div class="more-info" id="more-info">
+      <h2>Join Our Fan Club</h2>
+      <p>
+        Be part of our <span class="highlight">Angel of Delusion</span> fan club
+        community and enjoy exclusive content, updates, and information of
+        upcoming events and activities.
+      </p>
+      <button class="cta">Join Today!</button>
+    </div>
+
+*/
