@@ -1,4 +1,4 @@
-console.log("hey there");
+console.log("hey there gang");
 
 function showPopup() {
   var popup = document.getElementById("popup");
